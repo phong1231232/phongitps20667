@@ -1,0 +1,292 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+    max-width: 1520px;
+    margin: 0 auto;
+}
+.container{
+    width: 1520px;
+    font-family: Montserrat,sans-serif;
+}
+.header{
+    width: 1519px;
+    height: auto;
+    background: url(./images/biatalk.jpg);
+    background-size: 100%;
+}
+.sleek{
+    Position: Fixed;
+    background-color: black;
+    padding: 20px 15px;
+    width: 1519px;
+    height: 85px;
+}
+.navbar{
+    float: left;
+    width: 100%;
+    height: 45px;
+    display: flex;
+}
+.logo{
+    float: left;
+    width: 100px;
+    margin-left: 20px;
+}
+nav{
+    margin-top: 10px;
+    float: left;
+    margin: right;
+    width: 1000px;
+    height: 37px;
+    margin-left: 620px;
+}
+nav ul{
+    display: block;
+    list-style-type: none;
+}
+nav ul li{
+    font-size: 14px;
+    display: inline-block;
+    margin-right: 35px;
+    letter-spacing: 4.5px;
+    color: red;
+    size: 50px;
+}
+nav ul li a{
+    text-decoration: none;
+}
+nav ul li>:hover{
+    color: #66cf28;
+}
+a{
+    text-decoration: none;
+    color: #ffff;
+}
+.wrapbu{
+    width: 100%;
+    height: 742px;
+    padding-top: 120px;
+}
+.wrap{ 
+    display: flex;
+    margin-left: 110px;
+    width: 1300px;
+    height: 577px;
+}
+.roi-form{
+    width: 685px;
+    height: 493px;
+    background: #ffff;
+    padding: 40px 50px 50px;
+    margin: 0 auto;
+}
+
+.field-set{
+    height: 55px;
+}
+.field-set span{
+    font-size: 29px;
+    color: #66cf28;
+    font-weight: 800;
+    letter-spacing: 4px;
+}
+.content{
+    width: 500px;
+    height: 742px;
+    padding: 50px 0 0 130px;
+}
+.form-2{
+    width: 100%;
+    display: flex;
+}
+.hs-email{
+    width: 280px;
+    height: 116px;
+    margin: 0 23.4px 0 0;
+}
+.hs-labery{
+    width: 280px;
+    height: 116px;
+}
+.label-email{
+    width: 280px;
+    height: 20.5px;
+    margin: 0 0 6px;
+}
+span{
+    font-size: 13.7px;
+    font-weight: 550;
+}
+.email input {
+    font-size: 17px;
+    color: #66cf28;
+    width: 280px;
+    height: 50px;
+    background-color: #f2f2f2;
+    margin: 0 0 40px;
+    padding: 5px 15px;
+    border: none;
+}
+.email input:focus{
+    outline: none;
+}
+select {
+    height: 20px;
+    border: 0;
+    outline: none;
+    background-color: #f2f2f2;
+  }
+#id-email{
+    width: 280px;
+    height: 50px;
+    font-size: 17px;
+    color: #66cf28; 
+}
+#id-email option{
+    font-size: 17px;
+    color: #66cf28;
+}
+.hs-massage{
+    height: 166px;
+    width: 585px;
+}
+.lable-massage{
+    width: 100%;
+    margin: 0 0 6px;
+}
+.massage label textarea{
+    width: 585px;
+    height: 100px;
+    background-color: #f2f2f2;
+    margin: 0 0 40px;
+    padding: 5px 15px;
+    color: #66cf28;
+    font-size: 17px;
+    border: none;
+
+}
+.massage label textarea:focus{
+    background-color: #dcf5ce;
+    outline: none;
+}
+.input{
+    width: 555px;
+    height: 80px;
+}
+.action{
+    width: 100%;
+    height: 66px;
+    padding: 20px 0 ;
+}
+.button{
+    text-align: center;
+    width: 585px;
+    background: #66cf28; 
+    height: 46px;
+    padding: 15px 0;
+}
+.action .button:hover{
+    background-color: orange;
+}
+.button a{
+    color: #ffff;
+    font-weight: 550;
+}
+h1{
+    font-size: 64px;
+    margin: 0 0 20px;
+    width: 370px;
+    height: 128px;
+    color: #ffff;
+}
+h2{
+    font-family: 'Merriweather',sans-serif;
+    color: #acacac;
+    margin: 0 0 240px;
+}
+h3{
+    color: aliceblue;
+    font-size: 21px;
+    font-family: 'Montserrat',sans-serif;
+}
+h4{
+    margin: 0 0 20px;
+}
+h4 a{
+    color: #66cf28;
+    font-size: 18px;
+}
+.footer{
+    height: 500px;
+    position:absolute;
+    width:100%;   
+    background:#909092;
+     
+}
+.footer{
+    font-family: 16px 'hind',sans-serif;
+    padding: 50px;
+}
+.col-12f ul li{
+    padding: 0px 23px 0px 40px;
+    display: inline-block;
+    color: white;
+}
+.col-12f ul>:hover{
+    color: orangered;
+    transition: color 1s;
+    text-decoration-line: underline;
+}
+.col-12f ul{
+    margin-left: 200px;
+    font-size: 14px;
+}
+.logo2{
+    margin-left: 44.5%;
+    margin-top: 30px;
+}
+.icon{
+    text-align: center;
+    letter-spacing: 10px;
+    margin-top: 25px;
+}
+.cht p{
+    text-align: center;
+    color: #595858;
+    font-size: 13.7px;
+    line-height: 30px;
+}
+.link{
+    color: #595858;
+    font-size: 11.4px;
+    margin-left: 25px;
+    margin-right: 25px;
+    text-align: center;
+    line-height: 30px;
+}
+.link>:hover{
+    color: #66cf28;
+    text-decoration-line: underline;
+    transition: color 0.7s;
+}
+.infor p{
+    margin-bottom: 35px;
+    text-align: center;
+    font-size: 14.5px;
+    margin-top: 35px;
+}
+.infor p a{
+    color: #66cf28;
+}
+.infor p a>:hover{
+    color: orange;
+    text-decoration-line: underline;
+}
+.wrapper{
+    text-align: center;
+}
